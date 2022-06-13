@@ -1,0 +1,401 @@
+
+#navlisit{
+  
+    height: auto;
+    width: 100%;
+}
+.typing{
+    font-size: 12px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.coding{
+    color: red;
+}
+#homefront{
+    
+    margin-top: 10px;
+    padding: 0px;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-around;
+    text-align: center;
+    width: 100%;
+    height: 450px;
+    background:rgb(22, 22, 22);
+
+}
+#homefront .myimage{
+  width: 40%;
+  height: 400px;
+  align-self: center;
+}
+#homefront .myimage img{
+    width: 100%;
+
+} 
+.navlist2{
+    list-style: none;
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+    height: 90%;
+    
+}
+.navlistitems2{
+   
+    font-weight: bold;
+    margin: 5px;
+    padding: 10px;
+     align-items: center;
+    justify-content: center;
+    
+
+}
+.navlistitems2:hover{
+   
+    border: 1px red solid;
+    animation: none;
+  
+
+}
+.navlistitems2 a{
+   
+   text-decoration: none;
+   color: white;
+   font-size: 15px;
+   text-transform: uppercase;
+   }
+   /* aboutme */
+   #aboutme{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  
+    flex-wrap: wrap;
+    
+
+}
+   #fild1st{
+    width: 100%;
+    height: auto;
+    display: flex;
+  
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+   .image{
+       
+       width: 30%;
+       height: 400px;   
+       margin-top: 0px;
+       margin-right: 20px;
+       box-shadow: none;
+   }
+   .image img{
+  width: 100%;
+height: 100%;
+}
+   
+ .abtme{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    
+
+ }
+ .myself {
+     display: flex;
+  
+     width: 70%;
+     text-align: justify;
+     background:rgb(22, 22, 22);
+     font-size: 15px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+ }
+ .cv{
+     background: red;
+     padding: 10px;
+     border-radius: 20px;
+     color: white;
+     border: 2px black solid;
+     font-weight: bold;
+     font-size: 17px;
+ }
+ .cv:hover{
+     background: black;
+     animation: none;
+
+ }
+
+ /* contact */
+ #contactme{
+         width: 100%;
+         
+ }
+ #contactme fieldset{
+     height: auto;
+     border-bottom: none;
+   width: 100%;
+ }
+ #contactme div{
+    display: flex;
+    width: 100%;
+   justify-content: center;
+    
+}
+.fa{
+    margin-right: 10px;
+
+}
+.address{
+    display: flex;
+    justify-content: space-around;
+    padding: 0px;
+    
+}
+.add{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: 20px;
+          
+}
+.add ul{
+    margin: 0px;
+    list-style: none;
+  
+}
+.add ul li{
+    display: flex;
+    margin: 0px;
+    padding: 10px;
+  
+}
+
+.socilamedia .fa{
+
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: 1px black solid;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+ 
+  
+
+}
+.socilamedia .fa:hover{
+
+    background: red;
+    transition: scale(1.05);
+   
+    
+}
+
+
+.msg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+   
+}
+.msg form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    }
+    .msg form input,textarea{
+    padding: 10px;
+    margin:10px;
+    width: 100%;
+    font-size: 15px;
+    border: none;
+    border-bottom: 1px black solid;    
+    }
+    .send{
+        background: red;
+        letter-spacing: 10px;
+        border-radius: 20px;
+        font-weight: bold;
+    }
+    .send:hover{
+        background: black;
+        color: white;
+        animation: none;
+    }
+    .msg form textarea{
+        
+      overflow: hidden;
+      height: 130px;
+      resize: none;
+        }
+
+        /* myskill */
+        #myskill{
+            margin: 0px;
+            padding: 0px;
+            display: flex;
+            width: 100%;
+        }
+        #fild1st{
+            height: auto;
+            border-bottom: none;
+            border-left: none;
+            border-right: none;
+            border-top: 2px red solid;
+           
+            
+        }
+        .skills{
+            margin: 0px;
+            padding: 0px;
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .skillitems{
+            width: 45%;
+            padding: 20px;
+            color: white;
+            background:rgb(22, 22, 22);
+            margin-top: 10px;
+            box-shadow: 5px 5px 5px 5px gray;
+        }
+        
+        .skillitems2-1{
+            width: 100%;
+        }
+        .white1{
+            width: 95%;
+            height: 5px;
+            background: white;
+            display: flex;
+            
+           
+        }
+        .red1{
+            width: 90%;
+            background: red;
+            height: 5px;
+        }
+          .skillitems2-2{
+            width: 100%;
+        }
+        .skillitems2-2  .white2{
+            width: 95%;
+            height: 5px;
+            background: white;
+            display: flex;
+            
+           
+        }
+        .skillitems2-2 .red2{
+            width: 80%;
+            background: red;
+            height: 5px;
+        }
+        .skillitems2-3{
+            width: 100%;
+        }
+        .skillitems2-3  .white3{
+            width: 95%;
+            height: 5px;
+            background: white;
+            display: flex;
+            
+           
+        }
+        .skillitems2-3 .red3{
+            width: 50%;
+            background: red;
+            height: 5px;
+        }
+         .skillitems2-4{
+            width: 100%;
+        }
+        .skillitems2-4  .white4{
+            width: 95%;
+            height: 5px;
+            background: white;
+            display: flex;
+            
+           
+        }
+        .skillitems2-4 .red4{
+            width: 60%;
+            background: red;
+            height: 5px;
+        }
+         .skillitems2-5{
+            width: 100%;
+        }
+        .skillitems2-5  .white5{
+            width: 95%;
+            height: 5px;
+            background: white;
+            display: flex;
+            
+           
+        }
+        .skillitems2-2 .red5{
+            width: 40%;
+            background: red;
+            height: 5px;
+        }
+
+        /* services */
+        #Services{
+            display: flex;
+            width: 100%;
+          
+           
+        }
+        .servicesitems{
+            width: 30%;
+            height: auto;
+            margin: 10px;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background:rgb(22, 22, 22);
+            color: white;
+            box-shadow: 5px 5px 5px 5px gray;
+      
+        }
+        .servicesitems h2{
+            font-size: 15px;
+            padding-bottom: 10px;
+        }
+        .servicesitems:hover{
+            background: darkred;
+           transform: scale(1.01);
+           transition-duration: 1s;
+           border: 2px black solid;
+        }
+        .servicesitems img{
+            width: 100px;
+            height: 100px;
+            background: transparent;
+            
+          
+        }
